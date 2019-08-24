@@ -3,7 +3,7 @@
 Highly customizable GaugeSlider primarily designed for a Smart Home app.
 ##### Minimum iOS version 11.0
 
-![alt text](https://github.com/edgar-zigis/GaugeSlider/blob/master/sample.png?raw=true)
+![alt text](https://github.com/edgar-zigis/GaugeSlider/blob/master/sample.gif?raw=true)
 
 ### Carthage
 
