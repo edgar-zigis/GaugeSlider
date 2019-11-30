@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "GaugeSlider"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Highly customizable GaugeSlider primarily designed for a Smart Home app."
 
   spec.homepage     = "https://github.com/edgar-zigis/GaugeSlider"
