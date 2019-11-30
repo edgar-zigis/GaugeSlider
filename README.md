@@ -8,12 +8,12 @@ Highly customizable GaugeSlider primarily designed for a Smart Home app.
 ### Carthage
 
 ```
-github "edgar-zigis/GaugeSlider" ~> 1.0.0
+github "edgar-zigis/GaugeSlider" ~> 1.0.1
 ```
 ### Cocoapods
 
 ```
-pod 'GaugeSlider', '~> 1.0.0'
+pod 'GaugeSlider', '~> 1.0.1'
 ```
 ### Usage
 ```
