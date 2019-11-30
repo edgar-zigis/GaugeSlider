@@ -30,6 +30,7 @@ v.placeholderFont = UIFont.systemFont(ofSize: 17, weight: .medium)
 v.unitIndicatorFont = UIFont.systemFont(ofSize: 16, weight: .medium)
 v.customControlButtonTitle = "• Auto"
 v.isCustomControlActive = false
+v.customControlButtonVisible = true
 v.placeholder = "Warming"
 v.unit = "°"
 v.progress = 80 //  -> 0..100 a way to say percentage
