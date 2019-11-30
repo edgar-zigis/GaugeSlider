@@ -10,6 +10,11 @@ Highly customizable GaugeSlider primarily designed for a Smart Home app.
 ```
 github "edgar-zigis/GaugeSlider" ~> 1.0.0
 ```
+### Cocoapods
+
+```
+pod 'GaugeSlider', '~> 1.0.0'
+```
 ### Usage
 ```
 let v = GaugeSliderView()
