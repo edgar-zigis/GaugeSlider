@@ -211,6 +211,16 @@ public class GaugeSliderView: UIView {
     }
     
     /**
+     * Sets custom control visibility
+     */
+    @IBInspectable
+    open var customControlButtonVisible = true {
+        didSet {
+            customControlButton.isHidden = !customControlButtonVisible
+        }
+    }
+    
+    /**
      * Sets unit font
      */
     @IBInspectable
