@@ -16,7 +16,7 @@ github "edgar-zigis/GaugeSlider" ~> 1.0.1
 pod 'GaugeSlider', '~> 1.0.1'
 ```
 ### Usage
-```
+``` swift
 let v = GaugeSliderView()
 v.blankPathColor = UIColor(red: 218/255, green: 218/255, blue: 218/255, alpha: 1) //  -> inactive track color
 v.fillPathColor = UIColor(red: 74/255, green: 196/255, blue: 192/255, alpha: 1) //  -> filled track color
