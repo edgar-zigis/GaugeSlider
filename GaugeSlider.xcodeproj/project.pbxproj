@@ -7,30 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C051385123106DF50055FD0B /* GaugeSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051384723106DF50055FD0B /* GaugeSlider.framework */; };
-		C051385823106DF50055FD0B /* GaugeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = C051384A23106DF50055FD0B /* GaugeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C051386223106E4B0055FD0B /* GaugeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051386123106E4B0055FD0B /* GaugeSliderView.swift */; };
-		C051386523106EB60055FD0B /* ProgressCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051386423106EB60055FD0B /* ProgressCounter.swift */; };
-		C051386723106EF80055FD0B /* UIBezierPath+FirstPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051386623106EF80055FD0B /* UIBezierPath+FirstPoint.swift */; };
-		C051386923106F390055FD0B /* CgPath+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051386823106F390055FD0B /* CgPath+Elements.swift */; };
-		C0513871231075790055FD0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0513870231075790055FD0B /* AppDelegate.swift */; };
-		C0513873231075790055FD0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0513872231075790055FD0B /* ViewController.swift */; };
-		C0513876231075790055FD0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0513874231075790055FD0B /* Main.storyboard */; };
-		C05138782310757A0055FD0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05138772310757A0055FD0B /* Assets.xcassets */; };
-		C051387B2310757A0055FD0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05138792310757A0055FD0B /* LaunchScreen.storyboard */; };
+		C03481162496456100A942B1 /* ProgressCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03481052496456100A942B1 /* ProgressCounter.swift */; };
+		C03481182496456100A942B1 /* ProgressCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03481052496456100A942B1 /* ProgressCounter.swift */; };
+		C03481192496456100A942B1 /* CgPath+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03481062496456100A942B1 /* CgPath+Elements.swift */; };
+		C034811B2496456100A942B1 /* CgPath+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03481062496456100A942B1 /* CgPath+Elements.swift */; };
+		C034811C2496456100A942B1 /* UIBezierPath+FirstPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03481072496456100A942B1 /* UIBezierPath+FirstPoint.swift */; };
+		C034811E2496456100A942B1 /* UIBezierPath+FirstPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03481072496456100A942B1 /* UIBezierPath+FirstPoint.swift */; };
+		C034811F2496456100A942B1 /* GaugeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03481082496456100A942B1 /* GaugeSliderView.swift */; };
+		C03481212496456100A942B1 /* GaugeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03481082496456100A942B1 /* GaugeSliderView.swift */; };
+		C034813A249645C200A942B1 /* GaugeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = C03481032496456100A942B1 /* GaugeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C034814A249647D300A942B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0348141249647D300A942B1 /* ViewController.swift */; };
+		C034814E249647D300A942B1 /* ViewControllerWithoutStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0348147249647D300A942B1 /* ViewControllerWithoutStoryBoard.swift */; };
+		C034814F249647D300A942B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0348148249647D300A942B1 /* AppDelegate.swift */; };
+		C0348151249647FF00A942B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0348142249647D300A942B1 /* Assets.xcassets */; };
+		C0348152249647FF00A942B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0348143249647D300A942B1 /* LaunchScreen.storyboard */; };
+		C0348153249647FF00A942B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0348145249647D300A942B1 /* Main.storyboard */; };
 		C0513886231084B90055FD0B /* GaugeSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C051384723106DF50055FD0B /* GaugeSlider.framework */; };
 		C0513887231084B90055FD0B /* GaugeSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C051384723106DF50055FD0B /* GaugeSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C051388A231085420055FD0B /* ViewControllerWithoutStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0513889231085420055FD0B /* ViewControllerWithoutStoryBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C051385223106DF50055FD0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C051383E23106DF50055FD0B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C051384623106DF50055FD0B;
-			remoteInfo = GaugeSlider;
-		};
 		C05138842310838A0055FD0B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C051383E23106DF50055FD0B /* Project object */;
@@ -55,22 +51,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C03481032496456100A942B1 /* GaugeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaugeSlider.h; sourceTree = "<group>"; };
+		C03481052496456100A942B1 /* ProgressCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressCounter.swift; sourceTree = "<group>"; };
+		C03481062496456100A942B1 /* CgPath+Elements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CgPath+Elements.swift"; sourceTree = "<group>"; };
+		C03481072496456100A942B1 /* UIBezierPath+FirstPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+FirstPoint.swift"; sourceTree = "<group>"; };
+		C03481082496456100A942B1 /* GaugeSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaugeSliderView.swift; sourceTree = "<group>"; };
+		C03481092496456100A942B1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0348141249647D300A942B1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0348142249647D300A942B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0348144249647D300A942B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0348146249647D300A942B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0348147249647D300A942B1 /* ViewControllerWithoutStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerWithoutStoryBoard.swift; sourceTree = "<group>"; };
+		C0348148249647D300A942B1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0348149249647D300A942B1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C051384723106DF50055FD0B /* GaugeSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GaugeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C051384A23106DF50055FD0B /* GaugeSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaugeSlider.h; sourceTree = "<group>"; };
-		C051384B23106DF50055FD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C051385023106DF50055FD0B /* GaugeSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaugeSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C051386123106E4B0055FD0B /* GaugeSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeSliderView.swift; sourceTree = "<group>"; };
-		C051386423106EB60055FD0B /* ProgressCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCounter.swift; sourceTree = "<group>"; };
-		C051386623106EF80055FD0B /* UIBezierPath+FirstPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+FirstPoint.swift"; sourceTree = "<group>"; };
-		C051386823106F390055FD0B /* CgPath+Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CgPath+Elements.swift"; sourceTree = "<group>"; };
 		C051386E231075790055FD0B /* GaugeSliderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaugeSliderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0513870231075790055FD0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0513872231075790055FD0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C0513875231075790055FD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C05138772310757A0055FD0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C051387A2310757A0055FD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C051387C2310757A0055FD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0513889231085420055FD0B /* ViewControllerWithoutStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithoutStoryBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,14 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C051384D23106DF50055FD0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C051385123106DF50055FD0B /* GaugeSlider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,11 +87,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C03481012496456100A942B1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C03481022496456100A942B1 /* GaugeSlider */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C03481022496456100A942B1 /* GaugeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C03481032496456100A942B1 /* GaugeSlider.h */,
+				C03481042496456100A942B1 /* Common */,
+				C03481082496456100A942B1 /* GaugeSliderView.swift */,
+				C03481092496456100A942B1 /* Info.plist */,
+			);
+			path = GaugeSlider;
+			sourceTree = "<group>";
+		};
+		C03481042496456100A942B1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C03481052496456100A942B1 /* ProgressCounter.swift */,
+				C03481062496456100A942B1 /* CgPath+Elements.swift */,
+				C03481072496456100A942B1 /* UIBezierPath+FirstPoint.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C034813F249647D300A942B1 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C0348140249647D300A942B1 /* GaugeSliderTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C0348140249647D300A942B1 /* GaugeSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0348141249647D300A942B1 /* ViewController.swift */,
+				C0348142249647D300A942B1 /* Assets.xcassets */,
+				C0348143249647D300A942B1 /* LaunchScreen.storyboard */,
+				C0348145249647D300A942B1 /* Main.storyboard */,
+				C0348147249647D300A942B1 /* ViewControllerWithoutStoryBoard.swift */,
+				C0348148249647D300A942B1 /* AppDelegate.swift */,
+				C0348149249647D300A942B1 /* Info.plist */,
+			);
+			path = GaugeSliderTests;
+			sourceTree = "<group>";
+		};
 		C051383D23106DF50055FD0B = {
 			isa = PBXGroup;
 			children = (
-				C051384923106DF50055FD0B /* GaugeSlider */,
-				C051386F231075790055FD0B /* GaugeSliderTest */,
+				C03481012496456100A942B1 /* Sources */,
+				C034813F249647D300A942B1 /* Tests */,
 				C051384823106DF50055FD0B /* Products */,
 				C0513882231081DC0055FD0B /* Frameworks */,
 			);
@@ -114,45 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				C051384723106DF50055FD0B /* GaugeSlider.framework */,
-				C051385023106DF50055FD0B /* GaugeSliderTests.xctest */,
 				C051386E231075790055FD0B /* GaugeSliderTest.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C051384923106DF50055FD0B /* GaugeSlider */ = {
-			isa = PBXGroup;
-			children = (
-				C051386323106EA80055FD0B /* Common */,
-				C051384A23106DF50055FD0B /* GaugeSlider.h */,
-				C051384B23106DF50055FD0B /* Info.plist */,
-				C051386123106E4B0055FD0B /* GaugeSliderView.swift */,
-			);
-			path = GaugeSlider;
-			sourceTree = "<group>";
-		};
-		C051386323106EA80055FD0B /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				C051386423106EB60055FD0B /* ProgressCounter.swift */,
-				C051386623106EF80055FD0B /* UIBezierPath+FirstPoint.swift */,
-				C051386823106F390055FD0B /* CgPath+Elements.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		C051386F231075790055FD0B /* GaugeSliderTest */ = {
-			isa = PBXGroup;
-			children = (
-				C0513870231075790055FD0B /* AppDelegate.swift */,
-				C0513872231075790055FD0B /* ViewController.swift */,
-				C0513889231085420055FD0B /* ViewControllerWithoutStoryBoard.swift */,
-				C0513874231075790055FD0B /* Main.storyboard */,
-				C05138772310757A0055FD0B /* Assets.xcassets */,
-				C05138792310757A0055FD0B /* LaunchScreen.storyboard */,
-				C051387C2310757A0055FD0B /* Info.plist */,
-			);
-			path = GaugeSliderTest;
 			sourceTree = "<group>";
 		};
 		C0513882231081DC0055FD0B /* Frameworks */ = {
@@ -169,7 +171,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C051385823106DF50055FD0B /* GaugeSlider.h in Headers */,
+				C034813A249645C200A942B1 /* GaugeSlider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,24 +195,6 @@
 			productName = GaugeSlider;
 			productReference = C051384723106DF50055FD0B /* GaugeSlider.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		C051384F23106DF50055FD0B /* GaugeSliderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C051385E23106DF50055FD0B /* Build configuration list for PBXNativeTarget "GaugeSliderTests" */;
-			buildPhases = (
-				C051384C23106DF50055FD0B /* Sources */,
-				C051384D23106DF50055FD0B /* Frameworks */,
-				C051384E23106DF50055FD0B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C051385323106DF50055FD0B /* PBXTargetDependency */,
-			);
-			name = GaugeSliderTests;
-			productName = GaugeSliderTests;
-			productReference = C051385023106DF50055FD0B /* GaugeSliderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		C051386D231075790055FD0B /* GaugeSliderTest */ = {
 			isa = PBXNativeTarget;
@@ -245,9 +229,6 @@
 						CreatedOnToolsVersion = 10.3;
 						LastSwiftMigration = 1030;
 					};
-					C051384F23106DF50055FD0B = {
-						CreatedOnToolsVersion = 10.3;
-					};
 					C051386D231075790055FD0B = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -267,7 +248,6 @@
 			projectRoot = "";
 			targets = (
 				C051384623106DF50055FD0B /* GaugeSlider */,
-				C051384F23106DF50055FD0B /* GaugeSliderTests */,
 				C051386D231075790055FD0B /* GaugeSliderTest */,
 			);
 		};
@@ -281,20 +261,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C051384E23106DF50055FD0B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C051386C231075790055FD0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C051387B2310757A0055FD0B /* LaunchScreen.storyboard in Resources */,
-				C05138782310757A0055FD0B /* Assets.xcassets in Resources */,
-				C0513876231075790055FD0B /* Main.storyboard in Resources */,
+				C0348151249647FF00A942B1 /* Assets.xcassets in Resources */,
+				C0348152249647FF00A942B1 /* LaunchScreen.storyboard in Resources */,
+				C0348153249647FF00A942B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,17 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C051386223106E4B0055FD0B /* GaugeSliderView.swift in Sources */,
-				C051386523106EB60055FD0B /* ProgressCounter.swift in Sources */,
-				C051386723106EF80055FD0B /* UIBezierPath+FirstPoint.swift in Sources */,
-				C051386923106F390055FD0B /* CgPath+Elements.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C051384C23106DF50055FD0B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C03481162496456100A942B1 /* ProgressCounter.swift in Sources */,
+				C03481192496456100A942B1 /* CgPath+Elements.swift in Sources */,
+				C034811C2496456100A942B1 /* UIBezierPath+FirstPoint.swift in Sources */,
+				C034811F2496456100A942B1 /* GaugeSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,20 +289,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0513873231075790055FD0B /* ViewController.swift in Sources */,
-				C051388A231085420055FD0B /* ViewControllerWithoutStoryBoard.swift in Sources */,
-				C0513871231075790055FD0B /* AppDelegate.swift in Sources */,
+				C03481182496456100A942B1 /* ProgressCounter.swift in Sources */,
+				C034814E249647D300A942B1 /* ViewControllerWithoutStoryBoard.swift in Sources */,
+				C034811B2496456100A942B1 /* CgPath+Elements.swift in Sources */,
+				C034811E2496456100A942B1 /* UIBezierPath+FirstPoint.swift in Sources */,
+				C034814A249647D300A942B1 /* ViewController.swift in Sources */,
+				C034814F249647D300A942B1 /* AppDelegate.swift in Sources */,
+				C03481212496456100A942B1 /* GaugeSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C051385323106DF50055FD0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C051384623106DF50055FD0B /* GaugeSlider */;
-			targetProxy = C051385223106DF50055FD0B /* PBXContainerItemProxy */;
-		};
 		C05138852310838A0055FD0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C051384623106DF50055FD0B /* GaugeSlider */;
@@ -345,20 +310,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C0513874231075790055FD0B /* Main.storyboard */ = {
+		C0348143249647D300A942B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C0513875231075790055FD0B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C05138792310757A0055FD0B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C051387A2310757A0055FD0B /* Base */,
+				C0348144249647D300A942B1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C0348145249647D300A942B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0348146249647D300A942B1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -474,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -497,7 +462,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GaugeSlider/Info.plist;
+				INFOPLIST_FILE = Sources/GaugeSlider/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -525,7 +490,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GaugeSlider/Info.plist;
+				INFOPLIST_FILE = Sources/GaugeSlider/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -541,44 +506,6 @@
 			};
 			name = Release;
 		};
-		C051385F23106DF50055FD0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22JT5762MG;
-				INFOPLIST_FILE = GaugeSliderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zigis.GaugeSliderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C051386023106DF50055FD0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22JT5762MG;
-				INFOPLIST_FILE = GaugeSliderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zigis.GaugeSliderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		C051387D2310757A0055FD0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -586,7 +513,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22JT5762MG;
-				INFOPLIST_FILE = GaugeSliderTest/Info.plist;
+				INFOPLIST_FILE = Tests/GaugeSliderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -606,7 +533,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22JT5762MG;
-				INFOPLIST_FILE = GaugeSliderTest/Info.plist;
+				INFOPLIST_FILE = Tests/GaugeSliderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -636,15 +563,6 @@
 			buildConfigurations = (
 				C051385C23106DF50055FD0B /* Debug */,
 				C051385D23106DF50055FD0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C051385E23106DF50055FD0B /* Build configuration list for PBXNativeTarget "GaugeSliderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C051385F23106DF50055FD0B /* Debug */,
-				C051386023106DF50055FD0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

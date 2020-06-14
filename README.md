@@ -3,7 +3,7 @@
 Highly customizable GaugeSlider primarily designed for a Smart Home app.
 ##### Minimum iOS version 11.0
 
-![alt text](https://github.com/edgar-zigis/GaugeSlider/blob/master/sampleGif.gif?raw=true)
+![alt text](https://github.com/edgar-zigis/GaugeSlider/blob/master/sample.gif?raw=true)
 
 ### Carthage
 
@@ -14,6 +14,11 @@ github "edgar-zigis/GaugeSlider" ~> 1.0.1
 
 ```
 pod 'GaugeSlider', '~> 1.0.1'
+```
+### Swift Package Manager
+
+```
+https://github.com/edgar-zigis/GaugeSlider  // latest version 1.1.0
 ```
 ### Usage
 ```
@@ -32,7 +37,7 @@ v.customControlButtonTitle = "• Auto"
 v.isCustomControlActive = false
 v.customControlButtonVisible = true
 v.placeholder = "Warming"
-v.unit = "°"
+v.unit = "°"  //  -> change default unit from temperature to anything you like
 v.progress = 80 //  -> 0..100 a way to say percentage
 v.value = 10
 v.minValue = 5
