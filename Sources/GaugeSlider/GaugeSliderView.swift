@@ -15,8 +15,8 @@ public enum GaugeSliderCountingMethod {
     case easeInOut
 }
 
-public enum GaugeSliderDelegationMode {
-    case immediate
+public enum GaugeSliderDelegationMode: Equatable {
+    case immediate(interval: CGFloat)
     case singular
 }
 
@@ -136,7 +136,15 @@ public class GaugeSliderView: UIView {
     open var progress: CGFloat = 0 {
         didSet {
             if  Int(oldValue) != Int(progress) && allowCallBack && !internalActionsInProgress {
-                onProgressChanged(Int(progress))
+                switch delegationMode {
+                case .immediate(let interval):
+                    if abs(progress - previousProgressValue) >= interval {
+                        previousProgressValue = progress
+                        onProgressChanged(Int(progress))
+                    }
+                default:
+                    onProgressChanged(Int(progress))
+                }
             }
             updateViews()
         }
@@ -293,6 +301,7 @@ public class GaugeSliderView: UIView {
         }
     }
     private var internalActionsInProgress = false
+    private var previousProgressValue: CGFloat = 0
     
     private var endPoint = CGPoint.zero
     private var totalArcDistance = CGFloat.leastNonzeroMagnitude

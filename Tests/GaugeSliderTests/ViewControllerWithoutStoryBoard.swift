@@ -41,6 +41,6 @@ class ViewControllerWithoutStoryBoard: UIViewController {
         v.unitIndicatorColor = UIColor(red: 74/255, green: 74/255, blue: 74/255, alpha: 0.2)
         v.customControlColor = UIColor(red: 47/255, green: 190/255, blue: 169/255, alpha: 1)
         v.customControlButtonTitle = "• Auto"
-        v.delegationMode = .singular
+        v.delegationMode = .immediate(interval: 3)
     }
 }
