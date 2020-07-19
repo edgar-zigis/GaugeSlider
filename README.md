@@ -8,18 +8,18 @@ Highly customizable GaugeSlider primarily designed for a Smart Home app.
 ### Carthage
 
 ```
-github "edgar-zigis/GaugeSlider" ~> 1.0.1
+github "edgar-zigis/GaugeSlider" ~> 1.2.1
 ```
 ### Cocoapods
 
 ```
-pod 'GaugeSlider', '~> 1.0.1'
+pod 'GaugeSlider', '~> 1.2.1'
 ```
 ### Swift Package Manager
 
 ```
 dependencies: [
-    .package(url: "https://github.com/edgar-zigis/GaugeSlider.git", .upToNextMajor(from: "1.1.0"))
+    .package(url: "https://github.com/edgar-zigis/GaugeSlider.git", .upToNextMajor(from: "1.2.1"))
 ]
 ```
 ### Usage
@@ -45,7 +45,7 @@ v.value = 10
 v.minValue = 5
 v.maxValue = 25
 v.countingMethod = GaugeSliderCountingMethod.easeInOut // -> sliding animation style
-v.delegationMode = .singular
+v.delegationMode = .singular //  -> or .immediate(interval: Int)
 v.leftIcon = UIImage(named: "snowIcon")
 v.rightIcon = UIImage(named: "sunIcon")
 ```

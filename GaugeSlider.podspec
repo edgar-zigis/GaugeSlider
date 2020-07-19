@@ -1,10 +1,10 @@
 Pod::Spec.new do |spec|
   spec.name         = "GaugeSlider"
-  spec.version      = "1.0.1"
+  spec.version      = "1.2.1"
   spec.summary      = "Highly customizable GaugeSlider primarily designed for a Smart Home app."
 
   spec.homepage     = "https://github.com/edgar-zigis/GaugeSlider"
-  spec.screenshots  = "https://raw.githubusercontent.com/edgar-zigis/GaugeSlider/master/sampleGif.gif"
+  spec.screenshots  = "https://raw.githubusercontent.com/edgar-zigis/GaugeSlider/master/sample.gif"
 
 
   spec.license      = { :type => 'MIT', :file => './LICENSE' }
@@ -17,5 +17,5 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :git => "https://github.com/edgar-zigis/GaugeSlider.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "GaugeSlider/**/*.{swift}"
+  spec.source_files  = "Sources/GaugeSlider/**/*.{swift}"
 end
