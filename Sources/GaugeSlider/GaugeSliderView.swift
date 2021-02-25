@@ -458,7 +458,7 @@ public class GaugeSliderView: UIView {
         endValue: CGFloat = GaugeSliderView.maxValue,
         drawShadow: Bool = false,
         capturePoints: Bool = false
-        ) {
+    ) {
         let context = UIGraphicsGetCurrentContext()
         
         let path = UIBezierPath()
