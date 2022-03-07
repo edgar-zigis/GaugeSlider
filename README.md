@@ -50,4 +50,4 @@ v.leftIcon = UIImage(named: "snowIcon")
 v.rightIcon = UIImage(named: "sunIcon")
 ```
 ### Remarks
-It can be used both programmatically and with story boards. Samples are available at **GaugeSliderTest**
+It can be used both programmatically and with story boards. Samples are available at **Test/GaugeSliderTests**
